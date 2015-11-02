@@ -1,0 +1,29 @@
+{
+  "name": "liara",
+  "version": "0.0.1",
+  "description": "An extensible message broker to wire together multiple queues",
+  "main": "index.js",
+  "dependencies": {
+    "amqp": "^0.2.4",
+    "snyk": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "snyk test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iMartyn/liara.git"
+  },
+  "keywords": [
+    "amqp",
+    "mqtt",
+    "rabbitmq"
+  ],
+  "author": "Martyn Ranyard <martyn@ranyard.info>",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/iMartyn/liara/issues"
+  },
+  "homepage": "https://github.com/iMartyn/liara"
+}
